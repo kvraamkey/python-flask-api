@@ -1,6 +1,7 @@
 from flask import current_app, Blueprint
 from elasticsearch import exceptions
 from app.utils import successResponse, errorResponse
+
 auth = Blueprint('auth', __name__)
 
 

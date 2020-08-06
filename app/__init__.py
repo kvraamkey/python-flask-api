@@ -22,4 +22,3 @@ def create_app():
     initialize_routes(app)
     
     return app
-

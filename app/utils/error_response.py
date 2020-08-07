@@ -3,5 +3,5 @@ from flask import jsonify
 # error response
 
 
-def errorResponse(e):
+def error_response(e):
     return jsonify(error=True, message=str(e))

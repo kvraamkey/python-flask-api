@@ -2,7 +2,7 @@ from flask import jsonify
 # success response
 
 
-def successResponse(message, data=None):
+def success_response(message, data=None):
     response = {
         "error": False,
         "message": str(message)

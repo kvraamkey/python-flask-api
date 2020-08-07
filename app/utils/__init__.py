@@ -1,2 +1,2 @@
-from .errorResponse import *
-from .successResponse import *
+from .error_response import *
+from .success_response import *

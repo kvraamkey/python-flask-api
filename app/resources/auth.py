@@ -15,7 +15,7 @@ def login():
             "size": 10,
         }
         result = elastic_client.search(index="cimlogs_dev", body=query_body)
-        return success_response("test mesasage", result)
+        return success_response("test mesasage", "result")
     except exceptions.ConnectionError as err:
         return error_response(err)
     except Exception as e:

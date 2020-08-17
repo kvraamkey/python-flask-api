@@ -10,6 +10,7 @@ python-dotenv = "*"
 flask = "*"
 elasticsearch = "*"
 elasticsearch-dsl = "*"
+flask-jwt = "*"
 
 [requires]
 python_version = "3.8"

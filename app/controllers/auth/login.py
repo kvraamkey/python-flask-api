@@ -4,4 +4,4 @@ from app.utils import success_response
 
 
 def login(req):
-    return success_response('login route success',req.get('es').info())
+    return success_response('login route success')
